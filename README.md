@@ -7,6 +7,15 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
+### Docs Descarga de Proyecto
+
+  - Ejecutar `composer i`
+  - Copiar archivo .env con el comando `cp .env.example .env`
+  - En el archivo .env configurar la conexión a la base de datos
+  - Ejecutar el comando `php artisan migrate --seed` para crear las tablas y registros por defecto
+  - Finalmente ejecutar `php artisan serve`
+  - Ejecutar la url de `Obtener Todos los registros` de la sección `Docs Api`
+
 ### Docs Api
 
 - Obtener Todos los registros
